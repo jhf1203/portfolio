@@ -3,50 +3,50 @@ import React from "react";
 function About () {
     return (
         <div>
-        <div class="nc-photo"></div>
+        <div className="nc-photo"></div>
 
         <header>
-            <nav class="navbar navbar-expand-md navbar-dark navbar-custom">
+            <nav className="navbar navbar-expand-md navbar-dark navbar-custom">
 
   
-            <h1 class="navbar-brand">Jim Faulkner</h1>
+            <h1 className="navbar-brand">Jim Faulkner</h1>
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <span className="navbar-toggler-icon"></span>
             </button>
 
 
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link active" href="#">Close-Up
-                    <i class="fa fa-user"></i></a>
+            <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul className="navbar-nav">
+                <li className="nav-item">
+                    <a className="nav-link active" href="#">Close-Up
+                    <i className="fa fa-user"></i></a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="https://jhf1203.github.io/portfolio"> Content
-                    <i class="fa fa-book"></i></a>
+                <li className="nav-item">
+                    <a className="nav-link" href="https://jhf1203.github.io/portfolio"> Content
+                    <i className="fa fa-book"></i></a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="https://jhf1203.github.io/contact">Contact
-                    <i class="fa fa-envelope-o"></i></a>
+                <li className="nav-item">
+                    <a className="nav-link" href="https://jhf1203.github.io/contact">Contact
+                    <i className="fa fa-envelope-o"></i></a>
                 </li>
                 </ul>
             </div>
             </nav>
         </header>
 
-        <main class="container">
+        <main className="container">
 
             
-            <section class="row section-row">
+            <section className="row section-row">
 
-            <div class="col-md-3">
+            <div className="col-md-3">
                 <h2>About Me</h2>
-                <img class="bio-image img-fluid" src="../../assets/Profile.jpg" alt="A picture of me." id="bio-image" />
+                <img className="bio-image img-fluid" src="../../assets/Profile.jpg" alt="A picture of me." id="bio-image" />
             </div>
 
-            <div class="col-md-9">
+            <div className="col-md-9">
                 <p>
                 I'm a North Carolina Native, born and raised in the Southeastern part of the state
                 and a graduate of East Carolina University with a degree in Finance. In my spare
@@ -75,40 +75,40 @@ function About () {
 
 
         <footer>
-            <nav class="navbar navbar-expand-sm navbar-dark sticky-bottom navbar-custom navbar-index">
+            <nav className="navbar navbar-expand-sm navbar-dark sticky-bottom navbar-custom navbar-index">
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#footerBar"
+            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#footerBar"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon footer-toggler-icon"></span>
+                <span className="navbar-toggler-icon footer-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse justify-content-end" id="footerBar">
-                <ul class="navbar-nav d-flex align-items-end footer-nav">
-                <li class="nav-item active">
+            <div className="collapse navbar-collapse justify-content-end" id="footerBar">
+                <ul className="navbar-nav d-flex align-items-end footer-nav">
+                <li className="nav-item active">
                     <h4>Jim Faulkner | 2020 |</h4>
                 </li>
-                <li class="nav-item active">
-                    <a href="#" target="_blank" class="btn btn-sm" role="button" aria-pressed="true">
-                    <i class="fa fa-user"></i></a>
+                <li className="nav-item active">
+                    <a href="#" target="_blank" className="btn btn-sm" role="button" aria-pressed="true">
+                    <i className="fa fa-user"></i></a>
                 </li>
-                <li class="nav-item">
-                    <a href="https://jhf1203.github.io/portfolio" target="_blank" class="btn btn-sm active" role="button"
+                <li className="nav-item">
+                    <a href="https://jhf1203.github.io/portfolio" target="_blank" className="btn btn-sm active" role="button"
                     aria-pressed="true">
-                    <i class="fa fa-book"></i></a>
+                    <i className="fa fa-book"></i></a>
                 </li>
-                <li class="nav-item">
-                    <a href="https://jhf1203.github.io/contact" target="_blank" class="btn btn-sm" role="button"
+                <li className="nav-item">
+                    <a href="https://jhf1203.github.io/contact" target="_blank" className="btn btn-sm" role="button"
                     aria-pressed="true">
-                    <i class="fa fa-envelope-o e-mail-button"></i></a>
+                    <i className="fa fa-envelope-o e-mail-button"></i></a>
                 </li>
-                <li class="nav-item">
-                    <a href="https://www.linkedin.com/in/jim-faulkner-13476534" target="_blank" class="btn btn-sm" role="button"
+                <li className="nav-item">
+                    <a href="https://www.linkedin.com/in/jim-faulkner-13476534" target="_blank" className="btn btn-sm" role="button"
                     aria-pressed="true">
-                    <i class="fa fa-linkedin-square"></i></a>
+                    <i className="fa fa-linkedin-square"></i></a>
                 </li>
-                <li class="nav-item">
-                    <a href="https://github.com/jhf1203" target="_blank" class="btn btn-sm" role="button" aria-pressed="true">
-                    <i class="fa fa-github"></i></a>
+                <li className="nav-item">
+                    <a href="https://github.com/jhf1203" target="_blank" className="btn btn-sm" role="button" aria-pressed="true">
+                    <i className="fa fa-github"></i></a>
                 </li>
                 </ul>
             </div>
