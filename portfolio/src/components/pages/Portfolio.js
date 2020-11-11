@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import projects from "../../projects.json";
-import Project from "../Project";
+import ProjectMain from "../ProjectMain";
 
 
 
@@ -92,7 +92,7 @@ function manageToggleLeft () {
                 <div className="col-md-4"></div>
             </section>
 
-            <Project project={projects.portfolioIndex}/>
+            <ProjectMain project={projects.portfolioIndex}/>
             
             <div className="demo-window">
             <button className="btn-link close">
