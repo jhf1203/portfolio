@@ -1,14 +1,15 @@
 import React from "react"
 
 // This will live in the modal div at the bottom of ProjectPage
-function DemoThumbnail () {
+function DemoThumbnail (props) {
     
     return (
 
         <div>
-            {/* This will be an <img> tag from projects.demo-thumbnail that triggers the modal element that contains DemoContent */}
+           <img class="demo-thumbnail" src={props.thumbnail} alt={props.name} />
         </div>
     )
 }
+
 
 export default DemoThumbnail;

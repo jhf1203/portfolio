@@ -1,9 +1,9 @@
 import React from "react";
+import profilePic from '../../assets/profile.jpg'
 
 function About () {
     return (
         <div>
-
             <header>
                 <nav className="navbar navbar-expand-md navbar-dark navbar-custom">
                     <h1 className="navbar-brand">Jim Faulkner</h1>
@@ -29,7 +29,7 @@ function About () {
                 <section className="row section-row">
                     <div className="col-md-3">
                         <h2>About Me</h2>
-                        <img className="bio-image img-fluid" src="../../assets/Profile.jpg" alt="A picture of me." id="bio-image" />
+                        <img className="bio-image img-fluid" src={profilePic} alt="A picture of me." id="bio-image" />
                     </div>
                     <div className="col-md-9">
                         <p>

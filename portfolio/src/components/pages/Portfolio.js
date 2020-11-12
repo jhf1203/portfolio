@@ -1,12 +1,14 @@
 import React, { useState } from "react";
 import projects from "../../projects.json";
 import ProjectMain from "../ProjectMain";
+import DemoContent from "../DemoContent"
 
 
 
 function Portfolio () {
 
     const [portfolioIndex, setPortfolioIndex] = useState(0);
+
     // const [displayedItem, setDisplayedItem] = useState(projects[portfolioIndex])
 
 function manageToggleRight () {
@@ -18,6 +20,9 @@ function manageToggleLeft () {
     
     portfolioIndex === 0 ? setPortfolioIndex(projects.length - 1) : setPortfolioIndex(portfolioIndex - 1);
 }
+
+
+console.log('Porject!!', projects[portfolioIndex])
 
     return (
         <div>
@@ -54,8 +59,8 @@ function manageToggleLeft () {
                 <p>
                 I am so excited to share my body of work with you. Please see below, in
                 descending order, some selections of my work. I'd love to talk to you about any of these further, feel free to
-                reach out using one of the multitude of ways of <span><a className="resume-link"
-                    href="https://jhf1203.github.io/contact" target="_blank">getting in touch!</a></span></p>
+                reach out using one of the multitude of ways of getting in touch!
+                </p>
                 <a className="resume-link" href="assets/resume-1020.pdf" target="_blank">Click here to view my resume.</a>
 
             </div>
@@ -92,14 +97,21 @@ function manageToggleLeft () {
                 <div className="col-md-4"></div>
             </section>
 
-            <ProjectMain project={projects.portfolioIndex}/>
+            <ProjectMain 
+                project={projects[portfolioIndex]}
+                name={projects[portfolioIndex].name}
+                links={projects[portfolioIndex].projectLinks}
+                skills={projects[portfolioIndex].skillsUsed}
+                thumbnail={projects[portfolioIndex].demoThumbnail}
+                content={projects[portfolioIndex].demoContent}
+                summary={projects[portfolioIndex].summary}
+                details={projects[portfolioIndex].details}
+            />
             
-            <div className="demo-window">
-            <button className="btn-link close">
-                <i className="fa fa-window-close"></i>
-            </button>
-            <div className="demo-content"></div>
-            </div>
+            <DemoContent
+             project={projects[portfolioIndex]} 
+             name={projects[portfolioIndex].name}
+             />
             </main>
         </div>
 
