@@ -27,7 +27,7 @@ function ProjectMain (props) {
                         return (<DemoThumbnail 
                             thumbnail= {thumbnail}
                             name= {props.name}
-                            onClick= {() => manageModal()} />)
+                            onClick= { manageModal } />)
                     })} 
                 </div>
                 <div className="col-md-4">

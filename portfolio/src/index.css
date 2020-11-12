@@ -256,6 +256,24 @@ h4 {
 
 }
 
+.list-container {
+  border: 1px solid black
+}
+
+.list-header {
+  width: 100%;
+  color: #1b1b1b;
+  text-decoration: none!important;
+  text-align: center
+}
+
+.contact-text {
+
+  /* Box-Model */
+  padding-left: 3%;
+  padding-right: 3%
+}
+
 
 
 /* Styling rules exclusively for the "Portfolio" page are below */
@@ -358,6 +376,11 @@ h4 {
   text-decoration: none!important;
   margin-bottom: 4%;
   margin-top: 4%
+}
+
+.demo-thumbnail {
+  height: 100%;
+  width: 100%
 }
 
 

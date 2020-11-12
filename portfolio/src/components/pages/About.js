@@ -1,5 +1,6 @@
 import React from "react";
 import profilePic from '../../assets/profile.jpg'
+import ProfileEmbed from "../ProfileEmbed";
 
 function About () {
     return (
@@ -33,7 +34,7 @@ function About () {
                     </div>
                     <div className="col-md-9">
                         <p>
-                        I'm a North Carolina Native, born and raised in the Southeastern part of the state
+                        I'm a North Carolina Native, born and raised in Duplin County
                         and a graduate of East Carolina University with a degree in Finance. In my spare
                         time I enjoy homebrewing, collecting and playing records, photography, snow-skiing,
                         and architecture. I currenly live in North Raleigh with my wife and our young son.
@@ -56,7 +57,14 @@ function About () {
                     </div>
                 </section>
                 <section className="row bottom-row">
-                    <div className="col-md-8 section-row">
+                    <div className="col-md-7 section-row">
+                        <div className="row-contact-header">
+                            <h2>Contact Me</h2>
+                        </div>   
+                        <div className="row">
+                            <p className="contact-text">I would love to hear from you! I thrive on connection, and am always on
+                            the lookout for opportunities to network and collaborate.  Feel free to reach out using any of the resources below, as well as find out a bit more about me professionally.</p>
+                        </div>
                         <div className="row contact-list">
                             <i className="fa fa-map-marker contact-icon left-icon"></i>
                             <i className="fa fa-envelope"></i>
@@ -73,6 +81,8 @@ function About () {
                             <a className="link-github" href="https://github.com/jhf1203" target="_blank">Github</a>
                         </div>
                     </div>
+                    <div className="col-md-1"></div>
+                    <ProfileEmbed />
                 </section>
             </main>
         </div>
