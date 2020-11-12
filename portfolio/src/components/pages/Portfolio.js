@@ -74,27 +74,20 @@ console.log('Porject!!', projects[portfolioIndex])
             </div>
             </section>
 
-            <section className="row section-row">
+            <section className="row">
                 <div className="col-md-4"></div>
-                <div className="col-md-4">
-                <p>Toggle Projects</p>
+                <div className="col-md-4 section-row toggle-row">
+                    <div className="row toggle-subrow">
+                        <button type="button" className="btn btn-link toggle-btn" onClick={() => manageToggleLeft()}>
+                            <i className="fa fa-arrow-circle-left i-toggle"></i>
+                        </button>
+                        <h3 className="toggle-text">Toggle Projects</h3>
+                        <button type="button" className="btn btn-link" onClick={() => manageToggleRight()} >
+                            <i className="fa fa-arrow-circle-right i-toggle"></i> 
+                        </button>
+                    </div>
+                <div className="col-md-4"></div>
                 </div>
-                <div className="col-md-4"></div>
-            </section>
-
-            <section className="row section-row">
-                <div className="col-md-4"></div>
-                <div className="col-md-2">
-                <button type="button" className="btn btn-link" onClick={() => manageToggleLeft()}>
-                    <i className="fa fa-long-arrow-left"></i>
-                </button>
-                </div>
-                <div className="col-md-2">
-                <button type="button" className="btn btn-link" onClick={() => manageToggleRight()} >
-                    <i className="fa fa-long-arrow-right"></i> 
-                </button>
-                </div>
-                <div className="col-md-4"></div>
             </section>
 
             <ProjectMain 

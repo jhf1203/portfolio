@@ -14,11 +14,11 @@ function About () {
                     <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
                         <ul className="navbar-nav">
                         <li className="nav-item">
-                            <a className="nav-link active" href="#">Close-Up
+                            <a className="nav-link active" href="#">About
                             <i className="fa fa-user"></i></a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="https://jhf1203.github.io/portfolio"> Content
+                            <a className="nav-link" href="https://jhf1203.github.io/portfolio">Portfolio
                             <i className="fa fa-book"></i></a>
                         </li>
                         </ul>
