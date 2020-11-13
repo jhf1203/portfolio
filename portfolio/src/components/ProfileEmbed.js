@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import AlbumLineItem from "./AlbumLineItem";
 import axios from "axios";
 
@@ -26,12 +26,16 @@ function ProfileEmbed() {
       });
   }
 
-  getChart();
+  useEffect(() => {
+    getChart();
+  }, []);
 
   return (
-    <div className="col-md-4 section-row">
+    <div className="col-md-4 section-row list-container">
       <div className="row">
-        <h3 className="list-header">What I'm listening to this week</h3>
+        <h3 className="list-header">
+          <strong>What I'm listening to this week</strong>
+        </h3>
       </div>
       <ul className="list-content">
         {albumState.map((album) => {
@@ -45,6 +49,12 @@ function ProfileEmbed() {
           );
         })}
       </ul>
+      <p className="credit-line">
+        Powered by{" "}
+        <a href="http://last.fm" target="_blank" rel="noreferrer">
+          Last.fm
+        </a>
+      </p>
     </div>
   );
 }

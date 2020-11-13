@@ -1,17 +1,13 @@
 /* Styling rules for elements  */
 
 body {
-
   /* Typography */
-  font-family: 'Catamaran', sans-serif;
+  font-family: "Catamaran", sans-serif;
   line-height: 150%;
   color: #1b1b1b;
-
 }
 
-
 h2 {
-
   /* Box-Model */
   margin-top: 0;
   padding-bottom: 0px;
@@ -19,22 +15,16 @@ h2 {
   /* Typography */
   font-size: 30px;
   text-align: left;
-
 }
 
-
 p {
-
   /* Typography */
   font-size: 15.5px;
   text-align: justify;
   line-height: 21px;
-
 }
 
-
 h3 {
-
   /* Box-Model */
   margin-top: 5px;
   margin-bottom: 20px;
@@ -43,39 +33,31 @@ h3 {
   /* Typography */
   font-size: 20px;
   text-align: left;
-  text-decoration: underline
+  text-decoration: underline;
 }
 
-
 footer {
-
   /* Box-Model */
   max-height: 55px;
 
   /* Typography */
   color: #faf9f8;
-
 }
 
-
 h4 {
-
   /* Box-Model */
   padding-left: 110px;
   padding-top: 6px;
 
   /* Typography */
-  font-family: 'Catamaran', sans-serif;
+  font-family: "Catamaran", sans-serif;
   font-size: 16px;
   color: #faf9f8;
-
 }
-
 
 /* The following rules apply to classes that exist in two or more pages of this project */
 
 .nc-photo {
-
   /* Positioning */
   background-size: 120%;
   background-repeat: no-repeat;
@@ -86,117 +68,85 @@ h4 {
 
   /*Aesthetic */
   background-image: url("./assets/NC-Wall.JPG");
-  opacity: .3;
-
+  opacity: 0.3;
 }
-
 
 .navbar {
-
   /* Box-Model */
   padding: 0px, 0px, 0px, 0px;
-
 }
 
-
 .navbar-brand {
-
   /* Box-Model */
   padding-top: 10px;
   padding-left: 110px;
 
   /* Typography */
-  font-family: 'Baskervville', serif;
+  font-family: "Baskervville", serif;
   font-size: 50px;
   color: #faf9f8;
-
 }
-
 
 .navbar-dark,
 .navbar-nav,
 .nav-link {
-
   /* Typography */
   color: #faf9f8 !important;
-
 }
 
-
 .navbar-nav {
-
   /* Box-Model */
   padding-right: 100px;
   padding-top: 20px;
-
 }
 
-
 .navbar-custom {
-
   /* Aesthetic */
   background-color: #1b1b1b;
   opacity: 0.7;
-
 }
-
 
 .active {
-
   /* Typographyl */
   font-weight: bold;
-
 }
 
-
 .nav-item {
-
   /* Typography */
   font-size: 14px;
   color: #faf9f8;
-
 }
-
 
 .btn,
 .btn a {
-
   /* Box-Model */
   padding-top: 5px;
   padding-bottom: 7px;
 
   /* Typography */
-  font-family: 'Catamaran', sans-serif;
+  font-family: "Catamaran", sans-serif;
   font-size: 14px;
   vertical-align: middle;
   color: #faf9f8;
   opacity: 1;
-
 }
 
-
 .container {
-
   /* Box-model */
   padding-top: 12px;
 
   /* Positioning */
   width: 80%;
-
 }
 
-
 .row {
-
   /* Box-model */
   margin-top: 20px;
   margin-bottom: 2px;
   padding-bottom: 2px;
-
 }
 
 .section-row {
-
   /* Box-Model */
   padding-top: 20px;
   padding-bottom: 10px;
@@ -205,17 +155,13 @@ h4 {
   border: solid 1px #1b1b1b;
   background-color: #faf9f8;
   opacity: 0.8;
-  box-shadow:
-    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
-    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
-    0 12.5px 10px rgba(0, 0, 0, 0.06),
-    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
-    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
-    0 100px 80px rgba(0, 0, 0, 0.12)
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
 }
 
 .col-box {
-
   /* Box-Model */
   border: solid 1px #1b1b1b;
   padding-top: 5px;
@@ -224,92 +170,110 @@ h4 {
   /* Aesthetic */
   background-color: #faf9f8;
   opacity: 0.7;
-
 }
 
 .bottom-row {
   /* Box-Model */
-  margin-bottom: 7%
+  margin-bottom: 7%;
 }
-
 
 /* Styling rules exclusively for the "About Me" page are below */
 
 .bio-image {
-
   /* Positioning */
   width: 183px;
   height: 183px;
 
   /* Aesthetic */
   opacity: 1;
-
 }
 
-
 .navbar-index {
-
   /* Positioning */
   width: 100%;
   position: fixed;
   bottom: 0px;
-
 }
 
 .list-container {
-  border: 1px solid black
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
 }
 
 .list-header {
   width: 100%;
   color: #1b1b1b;
-  text-decoration: none!important;
-  text-align: center
+  text-decoration: none !important;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.list-content {
+  padding-left: 3%;
+}
+
+.artist-text {
+  text-align: left;
+  margin-bottom: 0px;
+  border-top: 1px solid #1b1b1b;
+}
+
+.album-text-container {
+  margin-left: 10%;
+  margin-bottom: 2%;
+  color: #1b1b1b;
+}
+
+.album-text {
+  font-size: 12px;
+  color: #1b1b1b;
+}
+
+.credit-line {
+  font-size: 9px;
+  margin-bottom: 0;
+  text-align: right;
+  padding-right: 3%;
+  border-top: 1px solid #1b1b1b;
 }
 
 .contact-text {
-
   /* Box-Model */
   padding-left: 3%;
-  padding-right: 3%
+  padding-right: 3%;
 }
 
-
+.contact-icon {
+  font-size: 300px;
+}
 
 /* Styling rules exclusively for the "Portfolio" page are below */
 
 .col-md-3 a {
-
   /* Typography */
   color: #1b1b1b;
   text-decoration: underline;
-
 }
 
 .resume-link {
-
   /* Typography */
   color: #1b1b1b;
   text-decoration: underline;
 }
 
 .btn-link {
-
   /* Typography */
   color: #1b1b1b;
   text-decoration: underline;
-
 }
 
 .col-folio p {
-
   /* Typography */
   text-align: left;
-
 }
 
 .demo-window {
-
   /* Box-Model */
   border: 2px solid #1b1b1b;
 
@@ -324,11 +288,9 @@ h4 {
 
   /* Aesthetic */
   background-color: #faf9f8;
-
 }
 
 .demo-content {
-
   /* Positioning */
   width: 768px;
   height: 432px;
@@ -337,7 +299,6 @@ h4 {
 }
 
 .fa-window-close {
-
   /* Positioning */
   position: relative;
   top: 3px;
@@ -345,150 +306,129 @@ h4 {
 
   /* Aesthetic */
   color: #d37d61;
-
 }
 
 .i-toggle {
-
   /* Typography */
-  font-size:30px
+  font-size: 30px;
 }
 
 .toggle-row {
-
   /* Aesthetic */
   padding-top: 0px;
-  padding-bottom:0px;
+  padding-bottom: 0px;
 }
 
 .toggle-subrow {
-
   /* box-Model */
   margin-top: 5%;
-  margin-bottom: 4%
+  margin-bottom: 4%;
 }
 
 .toggle-btn {
-  margin-left: 14%
+  margin-left: 14%;
 }
 
 .toggle-text {
-  text-decoration: none!important;
+  text-decoration: none !important;
   margin-bottom: 4%;
-  margin-top: 4%
+  margin-top: 4%;
 }
 
 .demo-thumbnail {
   height: 100%;
-  width: 100%
+  width: 100%;
 }
-
-
 
 /* Styling rules exclusively for the "Contact" page are below */
 
 .contact-row {
-
   /* Box-Model */
   margin-bottom: 50px;
-
 }
-
 
 .contact-list,
 .contact-list a,
 .contact-list p {
-
   /* Box-Model */
   padding-top: 0px;
   padding-top: 5px;
   margin-top: 0%;
 
-
   /* Typography */
   font-size: 15.5px;
   text-align: center;
-  color: #1b1b1b
+  color: #1b1b1b;
 }
 
-
 .contact-list i {
-
   /* Box-Model */
-  margin-left: 6.5%;
-  margin-right: 6.5%;
+  margin-left: 10%;
+  margin-right: 10%;
 
   /* Typography */
-  font-size: 30px;
-
+  font-size: 50px;
 }
 
 .left-icon {
-
   /* Box-Model */
-  margin-left: 14%!important
+  margin-left: 18% !important;
+}
+
+.fa-envelope {
+  margin-left: 8.7% !important;
+}
+
+.fa-black-tie {
+  margin-left: 10.5% !important;
 }
 
 .link-city {
-
   /* Box-Model */
-  margin-left: 7.2%
-
+  margin-left: 13%;
 }
 
 .link-email {
-
   /* Box-Model */
-  margin-left: 6%
-
+  margin-left: 14.5%;
 }
 
 .link-phone {
-
   /* Box-Model */
-  margin-left: 9%
-
+  margin-left: 18.5%;
 }
 
 .link-linkedin {
-
   /* Box-Model */
-  margin-left: 7.8%
-
+  margin-left: 17%;
 }
 
 .link-github {
-
   /* Box-Model */
-  margin-left: 9.7%
-
+  margin-left: 19%;
 }
 
+.link-resume {
+  /* Box-Model */
+  margin-left: 20%;
+}
 
 /* Footer styling rules are below for all pages */
 
-
 .nav {
-
   /* Aesthetic */
   background-color: #1b1b1b;
-
 }
 
-
 .sticky-bottom {
-
   /* Box-Model */
   padding: 0px, 0px, 0px, 0px;
 
   /* Positioning */
   height: 35px;
-
 }
 
-
 .footer-nav {
-
   /* Box-Model */
   margin-top: 17px;
 
@@ -497,10 +437,7 @@ h4 {
 
   /* Aesthetic */
   background-color: #1b1b1b;
-
 }
-
-
 
 /* This is a catch-all rule specificaly to override multiple other hover rules on 
   multiple pages in multiple built-in classes */
@@ -508,88 +445,63 @@ h4 {
 a:hover,
 .btn-link:hover,
 .resume-link:hover {
-
   /* Typography */
   color: #d37d61 !important;
   font-weight: bolder !important;
-
 }
-
-
 
 /* Media Query */
 
-@media only screen and (max-width:768px) {
-
+@media only screen and (max-width: 768px) {
   /* The below group of rules apply to elements and classes on multiple pages */
 
   h2 {
-
-
     /* Typography */
     font-size: 24px;
     font-weight: bold;
-
   }
 
   h3 {
-
     /* Typography */
     font-size: 18px;
-
   }
 
-
   .nc-photo {
-
     /* This provides an alternate photo that's in portrait orientation, which will still
     fill the background completely if used on mobile. */
 
     /* Aesthetics */
     background-image: url("./assets/durm.jpg");
     background-size: 150%;
-
   }
 
-
   .navbar-brand {
-
     /* Box-Model */
     padding-left: 22px;
 
     /* Typography */
     font-size: 30px;
-
   }
-
 
   .container {
-
     /* Positioning */
     width: 95%;
-
   }
 
-
   .col-md-3 {
-
     /* Box-Model */
     margin-bottom: 10px;
 
     /* Positioning */
     width: 100%;
-
   }
-
 
   /* The below rule applies only to the "About Me" page */
 
   .bio-image {
-
     /* Box-Model */
     width: 124px;
     height: 124px;
-
   }
 
   /* The below rules apply only to the "Portfolio" page */
@@ -599,78 +511,56 @@ a:hover,
     top: 25%;
     width: 450px;
     height: 259px;
-
   }
 
   /* The below rules apply only to the "Contact" page */
 
   .contact-row {
-
     /* Box-Model */
     margin-bottom: 50px;
-
   }
 
-
   .col-box {
-
     /* Box-Model */
     margin-bottom: 10px;
 
     /* Positioning */
     width: 100%;
-
   }
-
 
   .contact-list a,
   .contact-list p {
-
     /* Typography */
     font-size: 15px;
-
   }
-
 
   /* The below rules apply to the footer, and are present on all pages */
 
   .sticky-bottom {
-
     /* Positioning */
     height: 55px;
-
   }
 
-
   .navbar-index {
-
     /* This undoes the fixed positioning for this class, which is only in "About Me" but is in the footer.
     It makes the footer behave like a sticky footer normally would since the page now has a scroll feature
     on mobile */
 
     /* Positioning */
     position: static;
-
   }
-
-
 }
-
 
 /* Other Media Query | This is the breakpoint for the Navbar Toggler and is undoing the
 Box-Model and sizing rules I gave this class, to ensure the dark background covers the
 entire menu */
 
-@media only screen and (max-width:575px) {
-
+@media only screen and (max-width: 575px) {
   .footer-nav {
-
     /* Box-Model */
     margin-top: 0px;
 
     /* Positioning */
     height: inherit;
-
   }
-
 }
