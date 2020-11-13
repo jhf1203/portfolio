@@ -7,10 +7,9 @@ function DemoContent(props) {
       width="768"
       height="432"
       title={props.name}
-      src={props.links}
+      src={props.content}
       frameborder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen
     ></iframe>
   );
   const img = (

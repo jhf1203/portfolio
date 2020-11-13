@@ -3,6 +3,7 @@ import burgerImg from "./assets/demo-thumbnails/ss-burger.png";
 import teamProfileImg from "./assets/demo-thumbnails/ss-team-profile-generator.png";
 import dateNightImg from "./assets/demo-thumbnails/ss-date-night.png";
 import directoryImg from "./assets/demo-thumbnails/ss-employee-directory.png";
+import readmeImg from "./assets/demo-thumbnails/ss-readme-generator.png";
 
 import bookmarkedGif from "./assets/demo-gifs/bookmarked-demo.gif";
 import BurgerGif from "./assets/demo-gifs/burger-demo.gif";
@@ -11,7 +12,7 @@ import directoryGif from "./assets/demo-gifs/employee-directory.gif";
 
 const projects = [
   {
-    id: 5,
+    id: 6,
     name: "Employee Directory",
     projectLinks: [
       {
@@ -33,7 +34,7 @@ const projects = [
       "Although the only component requirement for this assignment were class components, I chose to move forward with stateful functional components instead, since there will most likely be more application for this method in the workplace.  Additionally, since the same type of method is needed to sort or filter a field regardless of how many fields there are, I was able to provide sort and filtering functionality to all fields rather than just one.",
   },
   {
-    id: 4,
+    id: 5,
     name: "Bookmarked",
     projectLinks: [
       { type: "Repository", url: "https://github.com/jhf1203/Project-2" },
@@ -50,7 +51,7 @@ const projects = [
       "This application was done with me being part of a team of four, and was my first experience working on a multi-faceted full-stack project with a team. In addition to practicing recent languages and libraries, I was able to see clearly how closely together they work given that each member of the team had different assignments and responsibilities. This was a highly ambitious project with a long list of items for future development with a target completion time of 60 days, so stay posted. This will be a fully functional social media platform by December.",
   },
   {
-    id: 3,
+    id: 4,
     name: "Eat A Burger",
     projectLinks: [
       {
@@ -69,7 +70,7 @@ const projects = [
       "This is the closest thing to a full-stack assignment that I've completed so far, in that the front end can be manipulated by the user via code on the back end and values that are housed in a database. There are multiple API calls on this app, as well as the usage of ORMs and handlebars for templating.",
   },
   {
-    id: 2,
+    id: 3,
     name: "Team Profile Generator",
     projectLinks: [
       {
@@ -80,12 +81,30 @@ const projects = [
     skillsUsed:
       "MySQL, Node.js, Express, Templating (no engines), Object classes & subclasses.",
     demoThumbnail: [teamProfileImg],
-    demoContent: ["'https://www.youtube.com/embed/U77DcU5zm8g'"],
+    demoContent: ["https://www.youtube.com/embed/U77DcU5zm8g"],
     demoType: "iframe",
     summary:
       "A scalable command-line application that displays basic info for various employees within an organization, by employee type.",
     details:
       "This was my first experience bringing back-end code to the front in a styled form using templating. No template libraries or packages were used for this project, everything was rendered through Javascript and Express. Additionally this project featured extensive usage of express modules, and classes and subclasses in Javascript to define the types of unique employees that belong to this particular organization. Additionally we were given free reign with the styling, and you will notice my finished product is quite different than the example file shown in the assets folder.",
+  },
+  {
+    id: 2,
+    name: "ReadMe Generator",
+    projectLinks: [
+      {
+        type: "Repository",
+        url: "https://github.com/jhf1203/readme-generator",
+      },
+    ],
+    skillsUsed: "Node.Js, FileSystem and Inquirer packages",
+    demoThumbnail: [readmeImg],
+    demoContent: ["https://www.youtube.com/embed/J83TmIJUB-g"],
+    demoType: "iframe",
+    summary:
+      "This application generates a readMe that meets quality guidelines, is simple enough to be used by a beginner, and detailed enough to be used by a seasoned professional.",
+    details:
+      "This was my first back-end development assignment, which gave me my first glimpse into how the front-end can be manipulated by the server (despite there not being a server on this particular assignment). It was also my first experience with templating client-side code from the back-end and has served as a great learning experience as we have since taken a deeper dive into templating engines, ORMs and full-stack development. Based off of feedback from the grader on this project, it is what I use to generate readMe files for all of my homework assignments since.",
   },
   {
     id: 1,
