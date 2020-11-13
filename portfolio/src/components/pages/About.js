@@ -1,6 +1,7 @@
 import React from "react";
 import profilePic from "../../assets/profile.jpg";
 import ProfileEmbed from "../ProfileEmbed";
+import resume from "../../assets/resume-1020.pdf";
 
 function About() {
   return (
@@ -134,11 +135,7 @@ function About() {
               >
                 Github
               </a>
-              <a
-                className="link-resume"
-                href="../../assets/resume-1020.pdf"
-                target="_blank"
-              >
+              <a className="link-resume" href={resume} target="_blank">
                 Resume
               </a>
             </div>
