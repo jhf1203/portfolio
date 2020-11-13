@@ -6,21 +6,27 @@ import DemoContent from "../DemoContent";
 import resume from "../../assets/resume-1020.pdf";
 
 function Portfolio() {
+  // This state determines which index of the Object in "projects" is displayed on the portfolio
   const [portfolioIndex, setPortfolioIndex] = useState(0);
+
+  // This state determines the display property of the pop-up modal that shows the demo gif/video
   const [modalDisplay, setModalDisplay] = useState("none");
 
+  // Handling the state change of the modal to either display or be hidden
   function toggleModal() {
     modalDisplay === "none"
       ? setModalDisplay("block")
       : setModalDisplay("none");
   }
 
+  // Toggles to the next project in the portfolio
   function manageToggleRight() {
     portfolioIndex === projects.length - 1
       ? setPortfolioIndex(0)
       : setPortfolioIndex(portfolioIndex + 1);
   }
 
+  // Toggles to the previous project in the portfolio
   function manageToggleLeft() {
     portfolioIndex === 0
       ? setPortfolioIndex(projects.length - 1)
@@ -50,14 +56,13 @@ function Portfolio() {
             <ul className="navbar-nav">
               <li className="nav-item">
                 <Link to="/about" className="nav-link">
-                  About
-                  <i className="fa fa-user"></i>
+                  About <i className="fa fa-user header-icon"></i>
                 </Link>
               </li>
+
               <li className="nav-item">
                 <Link to="/portfolio" className="nav-link active">
-                  Portfolio
-                  <i className="fa fa-book"></i>
+                  Portfolio <i className="fa fa-book header-icon"></i>
                 </Link>
               </li>
             </ul>
@@ -120,6 +125,7 @@ function Portfolio() {
           </div>
         </section>
 
+        {/* Passing the props from the projects object into the main project component */}
         <ProjectMain
           project={projects[portfolioIndex]}
           name={projects[portfolioIndex].name}
@@ -131,6 +137,7 @@ function Portfolio() {
           toggle={toggleModal}
         />
 
+        {/* Passing the props from the projects object into the modal window that shows the demo */}
         <DemoContent
           project={projects[portfolioIndex]}
           name={projects[portfolioIndex].name}

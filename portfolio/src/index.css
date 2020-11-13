@@ -94,6 +94,10 @@ h4 {
   color: #faf9f8 !important;
 }
 
+.nav-link {
+  width: 90px;
+}
+
 .navbar-nav {
   /* Box-Model */
   padding-right: 100px;
@@ -175,6 +179,10 @@ h4 {
 .bottom-row {
   /* Box-Model */
   margin-bottom: 7%;
+}
+
+.header-icon {
+  margin-left: 2%;
 }
 
 /* Styling rules exclusively for the "About Me" page are below */
@@ -342,11 +350,6 @@ h4 {
 
 /* Styling rules exclusively for the "Contact" page are below */
 
-.contact-row {
-  /* Box-Model */
-  margin-bottom: 50px;
-}
-
 .contact-list,
 .contact-list a,
 .contact-list p {
@@ -511,13 +514,6 @@ a:hover,
     top: 25%;
     width: 450px;
     height: 259px;
-  }
-
-  /* The below rules apply only to the "Contact" page */
-
-  .contact-row {
-    /* Box-Model */
-    margin-bottom: 50px;
   }
 
   .col-box {

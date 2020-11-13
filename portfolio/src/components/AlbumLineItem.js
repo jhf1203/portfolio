@@ -1,6 +1,6 @@
 import React from "react";
 
-// This will live in the modal div at the bottom of ProjectPage
+// Rendering each of the artists/albums from ProfileEmbed
 function AlbumLineItem(props) {
   return (
     <div>

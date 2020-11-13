@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/img-redundant-alt */
 import React from "react";
 import { Link } from "react-router-dom";
 import profilePic from "../../assets/profile.jpg";
@@ -28,14 +29,12 @@ function About() {
             <ul className="navbar-nav">
               <li className="nav-item">
                 <Link to="/about" className="nav-link active">
-                  About
-                  <i className="fa fa-user"></i>
+                  About <i className="fa fa-user header-icon"></i>
                 </Link>
               </li>
               <li className="nav-item">
                 <Link to="/portfolio" className="nav-link">
-                  Portfolio
-                  <i className="fa fa-book"></i>
+                  Portfolio <i className="fa fa-book header-icon"></i>
                 </Link>
               </li>
             </ul>
@@ -103,12 +102,14 @@ function About() {
                 className="link-city"
                 href="https://www.visitraleigh.com/events/"
                 target="_blank"
+                rel="noreferrer"
               >
                 Raleigh, NC, USA
               </a>
               <a className="link-email" href="mailto:jhf1203@gmail.com">
                 E-mail
               </a>
+              {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
               <a className="link-phone" href="#" target="_blank">
                 252.917.1571
               </a>
@@ -123,6 +124,7 @@ function About() {
                 className="link-linkedin"
                 href="https://www.linkedin.com/in/jim-faulkner-13476534"
                 target="_blank"
+                rel="noreferrer"
               >
                 LinkedIn
               </a>
@@ -130,10 +132,16 @@ function About() {
                 className="link-github"
                 href="https://github.com/jhf1203"
                 target="_blank"
+                rel="noreferrer"
               >
                 Github
               </a>
-              <a className="link-resume" href={resume} target="_blank">
+              <a
+                className="link-resume"
+                href={resume}
+                target="_blank"
+                rel="noreferrer"
+              >
                 Resume
               </a>
             </div>

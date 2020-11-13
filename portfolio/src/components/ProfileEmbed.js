@@ -3,8 +3,10 @@ import AlbumLineItem from "./AlbumLineItem";
 import axios from "axios";
 
 function ProfileEmbed() {
+  // My playlist info will populate into an array, so we initially set this state as an empty one
   const [albumState, setAlbumState] = useState([]);
 
+  // last.fm api request to retrieve my weekly listening history
   function getChart() {
     axios
       .get(
@@ -20,12 +22,12 @@ function ProfileEmbed() {
           response.data.weeklyalbumchart.album[3],
           response.data.weeklyalbumchart.album[4]
         );
-        console.log("albumlist!", albumList);
+        // Setting the album state to the array in which my top albums were pushed
         setAlbumState(albumList);
-        console.log("album state!!!", albumState);
       });
   }
 
+  // UseEffect prevents axios from repeatedly making this API call
   useEffect(() => {
     getChart();
   }, []);
@@ -38,6 +40,7 @@ function ProfileEmbed() {
         </h3>
       </div>
       <ul className="list-content">
+        {/* Rendering each album info */}
         {albumState.map((album) => {
           return (
             <AlbumLineItem

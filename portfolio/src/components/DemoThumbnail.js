@@ -1,11 +1,11 @@
 import React from "react";
 
-// This will live in the modal div at the bottom of ProjectPage
+// This renders the thumbnail image for each project that will in turn launch the modal
 function DemoThumbnail(props) {
   return (
     <div>
       <img
-        class="demo-thumbnail"
+        className="demo-thumbnail"
         src={props.thumbnail}
         alt={props.name}
         onClick={props.toggle}
