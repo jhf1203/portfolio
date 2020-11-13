@@ -3,11 +3,17 @@ import { Link } from "react-router-dom";
 import projects from "../../projects";
 import ProjectMain from "../ProjectMain";
 import DemoContent from "../DemoContent";
+import resume from "../../assets/resume-1020.pdf";
 
 function Portfolio() {
   const [portfolioIndex, setPortfolioIndex] = useState(0);
+  const [modalDisplay, setModalDisplay] = useState("none");
 
-  // const [displayedItem, setDisplayedItem] = useState(projects[portfolioIndex])
+  function toggleModal() {
+    modalDisplay === "none"
+      ? setModalDisplay("block")
+      : setModalDisplay("none");
+  }
 
   function manageToggleRight() {
     portfolioIndex === projects.length - 1
@@ -20,8 +26,6 @@ function Portfolio() {
       ? setPortfolioIndex(projects.length - 1)
       : setPortfolioIndex(portfolioIndex - 1);
   }
-
-  console.log("Porject!!", projects[portfolioIndex]);
 
   return (
     <div>
@@ -75,8 +79,9 @@ function Portfolio() {
             </p>
             <a
               className="resume-link"
-              href="assets/resume-1020.pdf"
+              href={resume}
               target="_blank"
+              rel="noreferrer"
             >
               Click here to view my resume.
             </a>
@@ -121,14 +126,17 @@ function Portfolio() {
           links={projects[portfolioIndex].projectLinks}
           skills={projects[portfolioIndex].skillsUsed}
           thumbnail={projects[portfolioIndex].demoThumbnail}
-          content={projects[portfolioIndex].demoContent}
           summary={projects[portfolioIndex].summary}
           details={projects[portfolioIndex].details}
+          toggle={toggleModal}
         />
 
         <DemoContent
           project={projects[portfolioIndex]}
           name={projects[portfolioIndex].name}
+          toggle={toggleModal}
+          display={modalDisplay}
+          content={projects[portfolioIndex].demoContent}
         />
       </main>
     </div>
