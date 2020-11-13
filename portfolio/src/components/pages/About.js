@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import profilePic from "../../assets/profile.jpg";
 import ProfileEmbed from "../ProfileEmbed";
 import resume from "../../assets/resume-1020.pdf";
@@ -26,19 +27,16 @@ function About() {
           >
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a className="nav-link active" href="#">
+                <Link to="/about" className="nav-link active">
                   About
                   <i className="fa fa-user"></i>
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a
-                  className="nav-link"
-                  href="https://jhf1203.github.io/portfolio"
-                >
+                <Link to="/portfolio" className="nav-link">
                   Portfolio
                   <i className="fa fa-book"></i>
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
