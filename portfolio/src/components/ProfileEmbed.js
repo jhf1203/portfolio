@@ -10,7 +10,7 @@ function ProfileEmbed() {
   function getChart() {
     axios
       .get(
-        "http://ws.audioscrobbler.com/2.0/?method=user.getweeklyalbumchart&user=thenewblueblood&api_key=c94621ecb26f194d333023d806785d53&format=json"
+        "https://ws.audioscrobbler.com/2.0/?method=user.getweeklyalbumchart&user=thenewblueblood&api_key=c94621ecb26f194d333023d806785d53&format=json"
       )
       .then((response) => {
         console.log(response);
