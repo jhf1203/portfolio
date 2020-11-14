@@ -24,7 +24,7 @@ This will improve the user experience when viewing my profile and portfolio, and
 
 There is no installation required for this page, simply visit the deployment link below.
 
-https://jhf1203.github.io/about
+http://jhf1203.github.io/portfolio
 
 ---
 
