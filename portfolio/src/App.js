@@ -8,7 +8,8 @@ function App() {
   return (
     <div className="App">
       <div className="nc-photo"></div>
-      <Router>
+      <Router
+      >
       <div>
         <Route exact path="/" component={About} />
         <Route exact path="/about" component={About} />
