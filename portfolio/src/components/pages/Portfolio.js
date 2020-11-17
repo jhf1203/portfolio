@@ -54,17 +54,16 @@ function Portfolio() {
             id="navbarNav"
           >
             <ul className="navbar-nav">
+            <li className="nav-item">
+                <Link to="/portfolio" className="nav-link active">
+                  Portfolio <i className="fa fa-book header-icon"></i>
+                </Link>
+                </li>
               <li className="nav-item">
                 <Link to="/about" className="nav-link">
                   About <i className="fa fa-user header-icon"></i>
                 </Link>
-              </li>
-
-              <li className="nav-item">
-                <Link to="/portfolio" className="nav-link active">
-                  Portfolio <i className="fa fa-book header-icon"></i>
-                </Link>
-              </li>
+              </li> 
             </ul>
           </div>
         </nav>

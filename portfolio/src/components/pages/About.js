@@ -27,14 +27,14 @@ function About() {
             id="navbarNav"
           >
             <ul className="navbar-nav">
-              <li className="nav-item">
-                <Link to="/about" className="nav-link active">
-                  About <i className="fa fa-user header-icon"></i>
+            <li className="nav-item">
+                <Link to="/portfolio" className="nav-link">
+                  Portfolio <i className="fa fa-book header-icon"></i>
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to="/portfolio" className="nav-link">
-                  Portfolio <i className="fa fa-book header-icon"></i>
+                <Link to="/about" className="nav-link active">
+                  About <i className="fa fa-user header-icon"></i>
                 </Link>
               </li>
             </ul>
