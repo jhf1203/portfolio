@@ -81,18 +81,21 @@ function Portfolio() {
               to talk to you about any of these further, feel free to reach out
               using one of the multitude of ways of getting in touch!
             </p>
-            <a
+            <p><a
               className="resume-link"
               href={resume}
               target="_blank"
               rel="noreferrer"
             >
               Click here to view my resume.
-            </a>,
+            </a>
+            </p>
+            <p>
             <a className="resume-link"
               href="mailto: jhf1203@gmail.com">
                 E-mail me.
             </a>
+            </p>
           </div>
           <div className="col-md-5">
             <p>
