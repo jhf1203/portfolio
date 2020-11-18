@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import projects from "../../projects";
 import ProjectMain from "../ProjectMain";
 import DemoContent from "../DemoContent";
-import resume from "../../assets/resume-1020.pdf";
+import resume from "../../assets/resume-1120.pdf";
 
 function Portfolio() {
   // This state determines which index of the Object in "projects" is displayed on the portfolio
@@ -88,6 +88,10 @@ function Portfolio() {
               rel="noreferrer"
             >
               Click here to view my resume.
+            </a>,
+            <a className="resume-link"
+              href="mailto: jhf1203@gmail.com">
+                E-mail me.
             </a>
           </div>
           <div className="col-md-5">
