@@ -54,7 +54,7 @@ function ProfileEmbed() {
       </ul>
       <p className="credit-line">
         Powered by{" "}
-        <a href="http://last.fm" target="_blank" rel="noreferrer">
+        <a href="https://www.last.fm/user/thenewblueblood" target="_blank" rel="noreferrer">
           Last.fm
         </a>
       </p>
