@@ -1,11 +1,11 @@
-import bookmarkedImg from "./assets/demo-thumbnails/ss-bookmarked.png";
+import bookmarkedImg from "./assets/demo-thumbnails/bookmarked-updated-ss.png";
 import burgerImg from "./assets/demo-thumbnails/ss-burger.png";
 import teamProfileImg from "./assets/demo-thumbnails/ss-team-profile-generator.png";
 import dateNightImg from "./assets/demo-thumbnails/ss-date-night.png";
 import directoryImg from "./assets/demo-thumbnails/ss-employee-directory.png";
 import readmeImg from "./assets/demo-thumbnails/ss-readme-generator.png";
 
-import bookmarkedGif from "./assets/demo-gifs/bookmarked-demo.gif";
+import bookmarkedGif from "./assets/demo-gifs/bookmarked-updated-gif.gif";
 import BurgerGif from "./assets/demo-gifs/burger-demo.gif";
 import dateNightGif from "./assets/demo-gifs/date-night-demo.gif";
 import directoryGif from "./assets/demo-gifs/employee-directory.gif";
@@ -13,6 +13,23 @@ import directoryGif from "./assets/demo-gifs/employee-directory.gif";
 const projects = [
   {
     id: 6,
+    name: "Bookmarked",
+    projectLinks: [
+      { type: "Repository", url: "https://github.com/jhf1203/Project-2" },
+      { type: "Deployment", url: "https://project-2-team-2.herokuapp.com/" },
+    ],
+    skillsUsed:
+      "Sequelize, Express, Handlebars, Passport (NPM), jQuery, CSS, 3rd Party APIs, Travis, Linting, Cloudinary Image Hosting.",
+    demoThumbnail: [bookmarkedImg],
+    demoContent: [bookmarkedGif],
+    demoType: "gif",
+    summary:
+      "This is a full-stack social networking application centered around books.  It was a continuation of my second group project at the UNC boot camp, carried out by one of my teammates and I who were excited to continue to develop the app after it was presented.  We did this in our spare time as we continued to learn new topics and perform other group work.",
+    details:
+      "This application in its current form were not required for class, but once we completed the initial project and moved on there were several future development items that a teammate and I were excited about implementing.  The original application allowed the user to search and save books.  For this deployment we added the saving of profile images, a more polished UI, and a blog feature to create a more seamless social media environment.",
+  },
+  {
+    id: 5,
     name: "Employee Directory",
     projectLinks: [
       {
@@ -32,23 +49,6 @@ const projects = [
       "This was our first project utilizing react components, in which we were charged to create a user-friendly directory of employees that contained multiple attributes (e-mail address, hire date, etc) of our choosing.  The parameters were also that at least one field should be able to be filtered, and one should be able to be sorted",
     details:
       "Although the only component requirement for this assignment were class components, I chose to move forward with stateful functional components instead, since there will most likely be more application for this method in the workplace.  Additionally, since the same type of method is needed to sort or filter a field regardless of how many fields there are, I was able to provide sort and filtering functionality to all fields rather than just one.",
-  },
-  {
-    id: 5,
-    name: "Bookmarked",
-    projectLinks: [
-      { type: "Repository", url: "https://github.com/jhf1203/Project-2" },
-      { type: "Deployment", url: "https://project-2-team-2.herokuapp.com/" },
-    ],
-    skillsUsed:
-      "Sequelize, Express, Handlebars, Passport (NPM), jQuery, CSS, 3rd Party APIs, Travis, Linting.",
-    demoThumbnail: [bookmarkedImg],
-    demoContent: [bookmarkedGif],
-    demoType: "gif",
-    summary:
-      "This was our second group project for the class, and tasked us with creating a full-stack application of our choosing given certain conditions. We were required to serve a MySql database through Heroku, using the Sequelize ORM, and our HTML content was required to be rendered with Handlebars for Express.",
-    details:
-      "This application was done with me being part of a team of four, and was my first experience working on a multi-faceted full-stack project with a team. In addition to practicing recent languages and libraries, I was able to see clearly how closely together they work given that each member of the team had different assignments and responsibilities. This was a highly ambitious project with a long list of items for future development with a target completion time of 60 days, so stay posted. This will be a fully functional social media platform by December.",
   },
   {
     id: 4,
