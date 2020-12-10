@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.1fd8f66a.chunk.css",
-    "main.js": "/portfolio/static/js/main.b5ad8f7f.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.b5ad8f7f.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.b6092cb0.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.b6092cb0.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.9adcde90.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.9adcde90.js.map",
     "static/js/2.3b865619.chunk.js": "/portfolio/static/js/2.3b865619.chunk.js",
@@ -11,13 +11,13 @@
     "static/css/main.1fd8f66a.chunk.css.map": "/portfolio/static/css/main.1fd8f66a.chunk.css.map",
     "static/js/2.3b865619.chunk.js.LICENSE.txt": "/portfolio/static/js/2.3b865619.chunk.js.LICENSE.txt",
     "static/media/index.css": "/portfolio/static/media/durm.494f36c8.jpg",
-    "static/media/bookmarked-demo.2b01a51f.gif": "/portfolio/static/media/bookmarked-demo.2b01a51f.gif",
+    "static/media/bookmarked-updated-gif.3192d030.gif": "/portfolio/static/media/bookmarked-updated-gif.3192d030.gif",
+    "static/media/bookmarked-updated-ss.c02a6904.png": "/portfolio/static/media/bookmarked-updated-ss.c02a6904.png",
     "static/media/burger-demo.615c0c5c.gif": "/portfolio/static/media/burger-demo.615c0c5c.gif",
     "static/media/date-night-demo.ac36787b.gif": "/portfolio/static/media/date-night-demo.ac36787b.gif",
     "static/media/employee-directory.ee13e09d.gif": "/portfolio/static/media/employee-directory.ee13e09d.gif",
     "static/media/profile.844601b4.jpg": "/portfolio/static/media/profile.844601b4.jpg",
     "static/media/resume-1220.66d3bd03.pdf": "/portfolio/static/media/resume-1220.66d3bd03.pdf",
-    "static/media/ss-bookmarked.a10622d6.png": "/portfolio/static/media/ss-bookmarked.a10622d6.png",
     "static/media/ss-burger.e1828728.png": "/portfolio/static/media/ss-burger.e1828728.png",
     "static/media/ss-date-night.e93a54b7.png": "/portfolio/static/media/ss-date-night.e93a54b7.png",
     "static/media/ss-employee-directory.a868ca9a.png": "/portfolio/static/media/ss-employee-directory.a868ca9a.png",
@@ -28,6 +28,6 @@
     "static/js/runtime-main.9adcde90.js",
     "static/js/2.3b865619.chunk.js",
     "static/css/main.1fd8f66a.chunk.css",
-    "static/js/main.b5ad8f7f.chunk.js"
+    "static/js/main.b6092cb0.chunk.js"
   ]
 }
