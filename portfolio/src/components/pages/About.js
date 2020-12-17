@@ -58,7 +58,7 @@ function About() {
               a graduate of East Carolina University with a degree in Finance.
               In my spare time I enjoy homebrewing, collecting and playing
               records, photography, snow-skiing, and architecture. I currenly
-              live in North Raleigh with my wife and our young son. I have spent
+              live in North Raleigh with my 1-year-old son. I have spent
               all but three years of my life within one hour of the Triangle,
               and I truly believe there is no better place to live.
             </p>
