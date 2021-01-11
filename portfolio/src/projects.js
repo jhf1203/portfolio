@@ -4,13 +4,31 @@ import teamProfileImg from "./assets/demo-thumbnails/ss-team-profile-generator.p
 import dateNightImg from "./assets/demo-thumbnails/ss-date-night.png";
 import directoryImg from "./assets/demo-thumbnails/ss-employee-directory.png";
 import readmeImg from "./assets/demo-thumbnails/ss-readme-generator.png";
+import streakShadeImg from "./assets/demo-thumbnails/ss-streak-shade.png"
 
 import bookmarkedGif from "./assets/demo-gifs/bookmarked-updated-gif.gif";
 import BurgerGif from "./assets/demo-gifs/burger-demo.gif";
 import dateNightGif from "./assets/demo-gifs/date-night-demo.gif";
 import directoryGif from "./assets/demo-gifs/employee-directory.gif";
+import streakShadeGif from "./assets/demo-gifs/streak-shade-demo.gif"
 
 const projects = [
+  {
+    id: 7,
+    name: "Streak / Shade",
+    projectLinks: [
+      { type: "Repository", url: "https://github.com/jhf1203/lines" },
+      { type: "Deployment", url: "https://jhf1203.github.io/lines/" },
+    ],
+    skillsUsed:
+      "React, Functional Components/Hooks, Router",
+    demoThumbnail: [streakShadeImg],
+    demoContent: [streakShadeGif],
+    demoType: "gif",
+    summary:
+      "This is a website hosted on GitHub pages that is front-end only.  The front-end was completed entirely using the React Framework.",
+    details:
+      "This is a personal project I completed to greater showcase usage of the React framework.  It's contents are a series of residential architectural/design projects that I've completed and are still working on for fun throughout the past year."  },
   {
     id: 6,
     name: "Bookmarked",
