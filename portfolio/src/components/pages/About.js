@@ -92,58 +92,87 @@ function About() {
                 below, as well as find out a bit more about me professionally.
               </p>
             </div>
-            <div className="row contact-list">
-              <i className="fa fa-home contact-icon left-icon"></i>
-              <i className="fa fa-envelope contact-icon"></i>
-              <i className="fa fa-phone-square contact-icon"></i>
+            <div className="row contact-list ">
+              <div className="col-md-4">
+                <div className="row d-flex justify-content-center contact-icon-row">
+                  <i className="fa fa-home contact-icon left-icon"></i>
+                </div>
+                <div className="row d-flex justify-content-center contact-text-row">
+                  <a
+                  href="https://www.visitraleigh.com/events/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Raleigh, NC, USA
+                </a>
+                </div>
+              </div>
+              <div className="col-md-4">
+                <div className="row d-flex justify-content-center contact-icon-row">
+                  <i className="fa fa-envelope contact-icon"></i>
+                </div>
+                <div className="row d-flex justify-content-center contact-text-row">
+                  <a  href="mailto:jhf1203@gmail.com">
+                  E-mail
+                  </a>
+                </div>
+              </div>
+              <div className="col-md-4">
+                <div className="row d-flex justify-content-center contact-icon-row">
+                  <i className="fa fa-phone-square contact-icon"></i>
+                </div>
+                <div className="row d-flex justify-content-center contact-text-row">
+                  <a  href="#" target="_blank">
+                  252.917.1571
+                  </a>
+                </div>
+              </div>
             </div>
             <div className="row contact-list">
-              <a
-                className="link-city"
-                href="https://www.visitraleigh.com/events/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Raleigh, NC, USA
-              </a>
-              <a className="link-email" href="mailto:jhf1203@gmail.com">
-                E-mail
-              </a>
-              {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-              <a className="link-phone" href="#" target="_blank">
-                252.917.1571
-              </a>
-            </div>
-            <div className="row contact-list">
-              <i className="fa fa-linkedin-square left-icon"></i>
-              <i className="fa fa-github contact-icon"></i>
-              <i className="fa fa-black-tie contact-icon"></i>
-            </div>
-            <div className="row contact-list">
-              <a
-                className="link-linkedin"
-                href="https://www.linkedin.com/in/jim-faulkner-13476534"
-                target="_blank"
-                rel="noreferrer"
-              >
-                LinkedIn
-              </a>
-              <a
-                className="link-github"
-                href="https://github.com/jhf1203"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Github
-              </a>
-              <a
-                className="link-resume"
-                href={resume}
-                target="_blank"
-                rel="noreferrer"
-              >
-                Resume
-              </a>
+              <div className="col-md-4">
+                <div className="row d-flex justify-content-center contact-icon-row">
+                  <i className="fa fa-linkedin-square left-icon"></i>
+                </div>
+                <div className="row d-flex justify-content-center contact-text-row">
+                  <a
+                  href="https://www.linkedin.com/in/jim-faulkner-13476534"
+                  target="_blank"
+                  rel="noreferrer"
+                  >
+                  LinkedIn
+                  </a>
+                </div>
+              </div>
+              <div className="col-md-4">
+                <div className="row d-flex justify-content-center contact-icon-row">
+                  <i className="fa fa-github contact-icon"></i>
+                </div>
+                <div className="row d-flex justify-content-center contact-text-row">
+                  <a
+                  
+                  href="https://github.com/jhf1203"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Github
+                </a>
+                </div>
+              </div>
+              <div className="col-md-4">
+                <div className="row d-flex justify-content-center contact-icon-row">
+                  <i className="fa fa-black-tie contact-icon"></i>
+                </div>
+                <div className="row d-flex justify-content-center contact-text-row">
+                  <a
+                  
+                  href={resume}
+                  target="_blank"
+                  rel="noreferrer"
+                  >
+                  Resume
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
           <div className="col-md-1"></div>

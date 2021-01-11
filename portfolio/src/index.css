@@ -373,47 +373,12 @@ h4 {
   font-size: 50px;
 }
 
-.left-icon {
-  /* Box-Model */
-  margin-left: 18% !important;
+.contact-text-row {
+  margin-top:0;
 }
 
-.fa-envelope {
-  margin-left: 8.7% !important;
-}
-
-.fa-black-tie {
-  margin-left: 10.5% !important;
-}
-
-.link-city {
-  /* Box-Model */
-  margin-left: 13%;
-}
-
-.link-email {
-  /* Box-Model */
-  margin-left: 14.5%;
-}
-
-.link-phone {
-  /* Box-Model */
-  margin-left: 18.5%;
-}
-
-.link-linkedin {
-  /* Box-Model */
-  margin-left: 17%;
-}
-
-.link-github {
-  /* Box-Model */
-  margin-left: 19%;
-}
-
-.link-resume {
-  /* Box-Model */
-  margin-left: 20%;
+.contact-icon-row {
+  margin-bottom:0
 }
 
 /* Footer styling rules are below for all pages */
