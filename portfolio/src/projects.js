@@ -5,16 +5,52 @@ import dateNightImg from "./assets/demo-thumbnails/ss-date-night.png";
 import directoryImg from "./assets/demo-thumbnails/ss-employee-directory.png";
 import readmeImg from "./assets/demo-thumbnails/ss-readme-generator.png";
 import streakShadeImg from "./assets/demo-thumbnails/ss-streak-shade.png"
+import creightedImg from "./assets/demo-thumbnails/ss-cr8ed.png"
 
 import bookmarkedGif from "./assets/demo-gifs/bookmarked-updated-gif.gif";
 import BurgerGif from "./assets/demo-gifs/burger-demo.gif";
 import dateNightGif from "./assets/demo-gifs/date-night-demo.gif";
 import directoryGif from "./assets/demo-gifs/employee-directory.gif";
 import streakShadeGif from "./assets/demo-gifs/streak-shade-demo.gif"
+import creightedGif from "./assets/demo-gifs/cr8ed-demo.gif"
 
 const projects = [
   {
     id: 7,
+    name: "CR8ED",
+    projectLinks: [
+      { type: "Repository", url: "https://github.com/jhf1203/acmpmt" },
+      { type: "Deployment", url: "https://acmpmt.herokuapp.com/#/" },
+    ],
+    skillsUsed:
+      "React (Router, Custom Hooks), NoSQL (MongoDB | Mongoose), Node.js, Express server, Passport (Auth), Cloudinary (Image Upload), TagCloud Word Cloud Generator, 3rd party API (last.fm)",
+    demoThumbnail: [creightedImg],
+    demoContent: [creightedGif],
+    demoType: "gif",
+    summary:
+      "This is a full-stack (MERN) application developed as a 'hobby project' in my spare time throughout January and February 2021.",
+    details:
+      "An application that allows users to discover new music based off of their existing tastes.  Whereas most services show similar artists to one specific artist, cr8ed allows the user to find similar music based off of three artist entries combined, allowing for more of a 'little bit of this, little bit of that' experience.  Users can add albums to their queue as a reminder to revisit later, and can recommend albums based on their enjoyment.  Each album has multiple tags, which we consolidate into a word cloud to show the user's overall musical taste.  Additionally, the user can connect with other users who have similar tastes, viewing and discovering additional music through the queues and recommendations of the users that they follow."  
+    },
+    {
+      id: 6,
+      name: "Bookmarked",
+      projectLinks: [
+        { type: "Repository", url: "https://github.com/jhf1203/Project-2" },
+        { type: "Deployment", url: "https://project-2-team-2.herokuapp.com/" },
+      ],
+      skillsUsed:
+        "Sequelize, Express, Handlebars, Passport (NPM), jQuery, CSS, 3rd Party APIs, Travis, Linting, Cloudinary Image Hosting.",
+      demoThumbnail: [bookmarkedImg],
+      demoContent: [bookmarkedGif],
+      demoType: "gif",
+      summary:
+        "This is a full-stack social networking application centered around books.  It was a continuation of my second group project at the UNC boot camp, carried out by one of my teammates and I who were excited to continue to develop the app after it was presented.  We did this in our spare time as we continued to learn new topics and perform other group work.",
+      details:
+        "This application in its current form was not required for class, but once we completed the initial project and moved on there were several future development items that a teammate and I were excited about implementing.  The original application allowed the user to search and save books.  For this deployment we added the saving of profile images, a more polished UI, and a blog feature to create a more seamless social media environment.",
+    },
+  {
+    id: 5,
     name: "Streak / Shade",
     projectLinks: [
       { type: "Repository", url: "https://github.com/jhf1203/lines" },
@@ -28,26 +64,10 @@ const projects = [
     summary:
       "This is a website hosted on GitHub pages that is front-end only.  The front-end was completed entirely using the React Framework.",
     details:
-      "This is a personal project I completed to greater showcase usage of the React framework.  It's contents are a series of residential architectural/design projects that I've completed and are still working on for fun throughout the past year."  },
+      "This is a personal project I completed to greater showcase usage of the React framework.  It's contents are a series of residential architectural/design projects that I've completed and am still working on for fun throughout the past year."  
+    },
   {
-    id: 6,
-    name: "Bookmarked",
-    projectLinks: [
-      { type: "Repository", url: "https://github.com/jhf1203/Project-2" },
-      { type: "Deployment", url: "https://project-2-team-2.herokuapp.com/" },
-    ],
-    skillsUsed:
-      "Sequelize, Express, Handlebars, Passport (NPM), jQuery, CSS, 3rd Party APIs, Travis, Linting, Cloudinary Image Hosting.",
-    demoThumbnail: [bookmarkedImg],
-    demoContent: [bookmarkedGif],
-    demoType: "gif",
-    summary:
-      "This is a full-stack social networking application centered around books.  It was a continuation of my second group project at the UNC boot camp, carried out by one of my teammates and I who were excited to continue to develop the app after it was presented.  We did this in our spare time as we continued to learn new topics and perform other group work.",
-    details:
-      "This application in its current form were not required for class, but once we completed the initial project and moved on there were several future development items that a teammate and I were excited about implementing.  The original application allowed the user to search and save books.  For this deployment we added the saving of profile images, a more polished UI, and a blog feature to create a more seamless social media environment.",
-  },
-  {
-    id: 5,
+    id: 4,
     name: "Employee Directory",
     projectLinks: [
       {
@@ -69,7 +89,7 @@ const projects = [
       "Although the only component requirement for this assignment were class components, I chose to move forward with stateful functional components instead, since there will most likely be more application for this method in the workplace.  Additionally, since the same type of method is needed to sort or filter a field regardless of how many fields there are, I was able to provide sort and filtering functionality to all fields rather than just one.",
   },
   {
-    id: 4,
+    id: 3,
     name: "Eat A Burger",
     projectLinks: [
       {
@@ -85,10 +105,10 @@ const projects = [
     summary:
       "This assignment required me to create an app that allows the user to name a burger, and then 'devour' it at the click of a button. The burger information is stored in a database powered by mySql, and is hosted through heroku.",
     details:
-      "This is the closest thing to a full-stack assignment that I've completed so far, in that the front end can be manipulated by the user via code on the back end and values that are housed in a database. There are multiple API calls on this app, as well as the usage of ORMs and handlebars for templating.",
+      "This is the closest thing to a 'first' full-stack assignment that I completed for my program, in that the front end can be manipulated by the user via code on the back end and values that are housed in a database. There are multiple API calls on this app, as well as the usage of ORMs and handlebars for templating.",
   },
   {
-    id: 3,
+    id: 2,
     name: "Team Profile Generator",
     projectLinks: [
       {
@@ -105,24 +125,6 @@ const projects = [
       "A scalable command-line application that displays basic info for various employees within an organization, by employee type.",
     details:
       "This was my first experience bringing back-end code to the front in a styled form using templating. No template libraries or packages were used for this project, everything was rendered through Javascript and Express. Additionally this project featured extensive usage of express modules, and classes and subclasses in Javascript to define the types of unique employees that belong to this particular organization. Additionally we were given free reign with the styling, and you will notice my finished product is quite different than the example file shown in the assets folder.",
-  },
-  {
-    id: 2,
-    name: "ReadMe Generator",
-    projectLinks: [
-      {
-        type: "Repository",
-        url: "https://github.com/jhf1203/readme-generator",
-      },
-    ],
-    skillsUsed: "Node.Js, FileSystem and Inquirer packages",
-    demoThumbnail: [readmeImg],
-    demoContent: ["https://www.youtube.com/embed/J83TmIJUB-g"],
-    demoType: "iframe",
-    summary:
-      "This application generates a readMe that meets quality guidelines, is simple enough to be used by a beginner, and detailed enough to be used by a seasoned professional.",
-    details:
-      "This was my first back-end development assignment, which gave me my first glimpse into how the front-end can be manipulated by the server (despite there not being a server on this particular assignment). It was also my first experience with templating client-side code from the back-end and has served as a great learning experience as we have since taken a deeper dive into templating engines, ORMs and full-stack development. Based off of feedback from the grader on this project, it is what I use to generate readMe files for all of my homework assignments since.",
   },
   {
     id: 1,
