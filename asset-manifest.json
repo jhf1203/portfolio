@@ -1,24 +1,26 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.cfd1b94f.chunk.css",
-    "main.js": "/portfolio/static/js/main.48c52be3.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.48c52be3.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.3dae590f.chunk.css",
+    "main.js": "/portfolio/static/js/main.aa1202a9.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.aa1202a9.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.9adcde90.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.9adcde90.js.map",
     "static/js/2.8072cdaa.chunk.js": "/portfolio/static/js/2.8072cdaa.chunk.js",
     "static/js/2.8072cdaa.chunk.js.map": "/portfolio/static/js/2.8072cdaa.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.cfd1b94f.chunk.css.map": "/portfolio/static/css/main.cfd1b94f.chunk.css.map",
+    "static/css/main.3dae590f.chunk.css.map": "/portfolio/static/css/main.3dae590f.chunk.css.map",
     "static/js/2.8072cdaa.chunk.js.LICENSE.txt": "/portfolio/static/js/2.8072cdaa.chunk.js.LICENSE.txt",
     "static/media/index.css": "/portfolio/static/media/durm.494f36c8.jpg",
     "static/media/bookmarked-updated-gif.3192d030.gif": "/portfolio/static/media/bookmarked-updated-gif.3192d030.gif",
     "static/media/bookmarked-updated-ss.c02a6904.png": "/portfolio/static/media/bookmarked-updated-ss.c02a6904.png",
     "static/media/burger-demo.615c0c5c.gif": "/portfolio/static/media/burger-demo.615c0c5c.gif",
+    "static/media/cr8ed-demo.a485f7d7.gif": "/portfolio/static/media/cr8ed-demo.a485f7d7.gif",
     "static/media/date-night-demo.ac36787b.gif": "/portfolio/static/media/date-night-demo.ac36787b.gif",
     "static/media/employee-directory.ee13e09d.gif": "/portfolio/static/media/employee-directory.ee13e09d.gif",
     "static/media/profile.844601b4.jpg": "/portfolio/static/media/profile.844601b4.jpg",
     "static/media/resume0120.941188fc.pdf": "/portfolio/static/media/resume0120.941188fc.pdf",
     "static/media/ss-burger.e1828728.png": "/portfolio/static/media/ss-burger.e1828728.png",
+    "static/media/ss-cr8ed.6bf2a18f.png": "/portfolio/static/media/ss-cr8ed.6bf2a18f.png",
     "static/media/ss-date-night.e93a54b7.png": "/portfolio/static/media/ss-date-night.e93a54b7.png",
     "static/media/ss-employee-directory.a868ca9a.png": "/portfolio/static/media/ss-employee-directory.a868ca9a.png",
     "static/media/ss-readme-generator.a69c939e.png": "/portfolio/static/media/ss-readme-generator.a69c939e.png",
@@ -29,7 +31,7 @@
   "entrypoints": [
     "static/js/runtime-main.9adcde90.js",
     "static/js/2.8072cdaa.chunk.js",
-    "static/css/main.cfd1b94f.chunk.css",
-    "static/js/main.48c52be3.chunk.js"
+    "static/css/main.3dae590f.chunk.css",
+    "static/js/main.aa1202a9.chunk.js"
   ]
 }
