@@ -3,7 +3,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import profilePic from "../../assets/profile.jpg";
 import ProfileEmbed from "../ProfileEmbed";
-import resume from "../../assets/resume0120.pdf";
+import resume from "../../assets/resume0221.pdf";
 
 function About() {
   return (
