@@ -3,7 +3,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import profilePic from "../../assets/profile.jpg";
 import ProfileEmbed from "../ProfileEmbed";
-import resume from "../../assets/resume0221.pdf";
+import resume from "../../assets/resume0821.pdf";
 
 function About() {
   return (
@@ -46,7 +46,7 @@ function About() {
           <div className="col-md-3">
             <h2>About Me</h2>
             <img
-              className="bio-image img-fluid"
+              className="bio-image"
               src={profilePic}
               alt="A picture of me."
               id="bio-image"
@@ -54,28 +54,13 @@ function About() {
           </div>
           <div className="col-md-9">
             <p>
-              I'm a North Carolina Native, born and raised in Duplin County and
-              a graduate of East Carolina University with a degree in Finance.
-              In my spare time I enjoy homebrewing, collecting and playing
-              records, photography, snow-skiing, and architecture. I currenly
-              live in North Raleigh with my 1-year-old son. I have spent
-              all but three years of my life within one hour of the Triangle,
-              and I truly believe there is no better place to live.
+              I'm a Cloud Engineer for the Garage team at IBM.  Professionally I specialize in helping large companies modernize the way they do business through the application of DevOps principles and Cloud-Native Development.  While I like to consider myself a jack of all trades, I'm currently spending most of my work week utilizing RedHat Openshift on top of Kubernetes with a multitude of tools to help streamline how web applications function and are maintained and monitored.  
             </p>
             <p>
-              One of the many things I love about where I live is continuing to
-              see it grow as an innovative business hub of the Southeast. I'm
-              excited about software development being an integral part of that
-              continuing growth, and fascinated with how limitless the
-              possibilities are within lines of code. As I move through and
-              beyond the Coding Boot Camp at UNC I look forward to using my
-              skills to help create, support, and communicate with area
-              businesses.
+              On my portfolio page you'll find work that I have completed out of a workplace setting. Some are projects for the professional certification in Coding I completed in 2020, as well as passion projects revolved around my continuous improvement as a developer as well as highlighting some things about which I am passionate outside of development.    
             </p>
             <p>
-              I'm pleased to show you the work I do in the Portfolio located on
-              this page, and am excited to connect with you through the
-              multitude of channels by which I can be contacted.
+              Personally, I'm born and raised in Southeastern NC and have lived in Raleigh for most of the last decade.  When I'm not at work I love going on adventures with my toddler boy, with any time left spent on skiing, photography, architecture, fishing, and generally being outdoors as much as possible.  I'm also very passionate about music and always have it in the background, check out below what I've been listening to lately, and feel free to reach out to learn more about me!   
             </p>
           </div>
         </section>

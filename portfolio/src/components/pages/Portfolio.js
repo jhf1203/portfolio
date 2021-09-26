@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import projects from "../../projects";
 import ProjectMain from "../ProjectMain";
 import DemoContent from "../DemoContent";
-import resume from "../../assets/resume0221.pdf";
+import resume from "../../assets/resume0821.pdf";
 
 function Portfolio() {
   // This state determines which index of the Object in "projects" is displayed on the portfolio
