@@ -1,0 +1,32 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "My development portfolio",
+  "main": "server/server.js",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.11"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhf1203/portfolio.git"
+  },
+  "keywords": [
+    "react",
+    "javascript",
+    "nodejs",
+    "node",
+    "express"
+  ],
+  "author": "Jim Faulkner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jhf1203/portfolio/issues"
+  },
+  "homepage": "https://github.com/jhf1203/portfolio#readme"
+}
