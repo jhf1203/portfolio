@@ -1,8 +1,7 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import React from "react";
 import { Link } from "react-router-dom";
-import profilePic from "../../assets/profile.jpg";
-import ProfileEmbed from "../ProfileEmbed";
+import profilePic from "../../assets/Profile.jpg";
 import resume from "../../assets/resume0821.pdf";
 
 function About() {
@@ -161,7 +160,7 @@ function About() {
             </div>
           </div>
           <div className="col-md-1"></div>
-          <ProfileEmbed />
+          
         </section>
       </main>
     </div>

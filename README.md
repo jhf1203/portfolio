@@ -14,7 +14,7 @@
 
 ### Description
 
-This assignment is a re-work of our portfolio using the React framework in place of static front-end files. I used our homework 2 assignment (personal github page) as the base for this, with the content re-worked just a bit to accommodate both career services feedback on the page as well as the parameters for this project (specifically having each portfolio item display dynamically rather than on one long continuous page).
+This assignment is a rework of our portfolio using the React framework in place of static front-end files. I used our homework 2 assignment (personal github page) as the base for this, with the content re-worked just a bit to accommodate both career services feedback on the page as well as the parameters for this project (specifically having each portfolio item display dynamically rather than on one long continuous page).
 
 This will improve the user experience when viewing my profile and portfolio, and will not give me limitations on the content I can share on my portfolio since only one project will be stored at a time.
 
